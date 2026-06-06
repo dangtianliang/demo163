@@ -11,9 +11,9 @@
 		recipeFolder : "" // used like: recipeFolder + recipeName + '.js'
 		// IE and FF convert &#160; to "&nbsp;", Safari and Opera do not
 	,
-		replaceSpace : "&#160;",
-		replaceTab : "&#160;&#160;&#160;&#160;",
-		replaceNewLine : "&#160;<br/>",
+		replaceSpace : " ",
+		replaceTab : "    ",
+		replaceNewLine : " <br/>",
 		selectionStyle : ["position:absolute; z-index:3000; overflow:scroll;", "width:16em;", "height:9em;", "border:1px solid gray;", "padding:15px;", "background-color:yellow;"
 		].join(' ')
 		// ------------------------------------------------------------- end of options
