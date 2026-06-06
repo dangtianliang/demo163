@@ -1,0 +1,11 @@
+@charset "utf8";
+.myediter{position:relative;height: 530px;margin: 0 auto;width: 800px;}
+.myediter .editer-model,.myediter .editer-mask,.myediter .editer-view{line-height: 20px;font-size: 14px;letter-spacing: 1px;padding: 0 0 0 30px;box-sizing: border-box;margin: 0;word-wrap: break-word;word-break: break-all;border:0 none;white-space: pre-wrap;font-family: Arial;overflow-y:scroll;}
+.myediter .editer-model,.myediter .editer-mask{position:absolute;width:100%;height: 100%;top:0;left:0;resize:none;}
+.myediter .editer-mask{color:rgba(0, 0, 0, 0);background-color:rgba(0, 0, 0, 0)}
+.myediter .editer-mask::selection{color:#fff;background:#ac5500;}
+.myediter .editer-mask::-moz-selection{color:#fff;background:#ac5500;}
+.myediter .editer-model{z-index: -1;opacity: 1;background-color: #272822;}
+.myediter .editer-model::selection{color: #ac5500;background:#ac5500;}
+.myediter .editer-model::-moz-selection{color: #ac5500;background:#ac5500;}
+.myediter .editer-view{position:relative;width:100%;height: 100%;color: #f8f8f2;}

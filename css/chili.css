@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* html */
+.html__doctype { color: #CC6600; }
+.html__ie_style { color: DarkSlateGray; }
+.html__comment { color: #75715E; }
+.html__tag_start { color: #f92672; }
+.html__tag_end { color: #f92672; }
+.html__entity { color: blue; }
+.html__attr_name { color: #A6E22E; }
+.html__attr_value { color: #E6DB74; }
+/*  js */
+.js__ml_comment { color: gray; }
+.js__sl_comment { color: #75715E; }
+.js__string { color: #E6DB74; }
+.js__num { color: #AE81FF; }
+.js__reg_exp { color: #E6DB74; }
+.js__brace { color: #fff; }
+.js__statement { color: #66D9EF;  font-style: italic;}
+.js__error { color: Coral; }
+.js__object { color: #fff; }
+.js__property { color: #E6DB74; }
+.js__function { color: olive; }
+.js__operator { color: #66D9EF; font-style: italic;}
+.js__liveconnect { text-decoration: overline; }
+/*  php */
+.php__start { color: red; }
+.php__end { color: red; }
+.php__start { color: red; }
+.php__end { color: red; }
+.php__mlcom { color: gray; }
+.php__com { color: #75715E; }
+.php__string1 { color: #E6DB74; }
+.php__string2 { color: #F92672; }
+.php__value { color: gray; }
+.php__number { color: red; }
+.php__const1 { color: red; }
+.php__const2 { color: red; }
+.php__global { color: red; }
+.php__keyword { color: #66D9EF; }
+.php__variable { color: #fff; }
+/*  sql */
+.sql__mlcom { color: gray; }
+.sql__com { color: green; }
+.sql__string { color: purple; }
+.sql__quid { color: fuchsia; }
+.sql__value { color: gray; }
+.sql__number { color: red; }
+.sql__hexnum { color: red; }
+.sql__variable { color: #4040c2; }
+.sql__keyword { color: navy; }
+.sql__function { color: #e17100; }
+.sql__id { color: maroon; }
+/*  css */
+.css__comment { color: #75715E; }
+.css__directive { color: #F92672; }
+.css__url { color: fuchsia; }
+.css__class { color: #A6E22E; }
+.css__id { color: IndianRed; }
+.css__pseudo { color: #CC9900; }
+.css__element { color: #F92672; }
+.css__property { color: #66D9EF; }
+.css__special { color: #330066; text-decoration: underline; }
+.css__value { color: #66D9EF; }
+.css__string { color: teal; }
+.css__number { color: #AE81FF; }
+.css__color { color: #AE81FF; }

@@ -1,0 +1,828 @@
+
+#nav-2014, #search-2014 .text {
+    border-color: #b32d36;
+}
+#categorys-2014 {
+    width: 242px;
+}
+#categorys-2014 .dt, #search-2014 .button {
+    background: #b32d36 none repeat scroll 0 0;
+}
+#categorys-2014 .dt {
+    padding: 0 20px;
+}
+#navitems-2014 .curr a, #navitems-2014 a:hover {
+    color: #b32d36;
+}
+.p-category {
+    background-color: #b32d36;
+    height: 390px;
+    overflow: hidden;
+    padding: 0 20px;
+    position: absolute;
+    width: 202px;
+    z-index: 2;
+}
+.p-category .category-link {
+    color: #fff;
+}
+.p-category .category-link:hover {
+    text-decoration: underline;
+}
+.category {
+    border-bottom: 1px dotted #fff;
+    padding-bottom: 22px;
+    padding-top: 2px;
+}
+.category .category-item {
+    float: left;
+    margin-bottom: 8px;
+    overflow: hidden;
+    width: 101px;
+}
+.hot {
+    padding: 30px 0;
+}
+.hot .hot-title {
+    color: #fff;
+    font: 400 15px/15px "Microsoft Yahei";
+    margin-bottom: 12px;
+}
+.hot .hot-cont {
+    color: #fff;
+    list-style: outside none disc;
+    padding-left: 15px;
+}
+.hot .hot-cont .hot-item {
+    margin-top: 8px;
+}
+.first-screen {
+    height: 390px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.p-slider {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.p-slider .slider-mc {
+    position: relative;
+}
+.p-slider .slider-mc .item {
+    height: 390px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.p-slider .i-wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 990px;
+}
+.p-slider .i-wrap .i-inner {
+    margin-left: 22px;
+    overflow: hidden;
+    position: relative;
+    width: 968px;
+}
+.p-slider .slider-extra {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 990px;
+}
+.p-slider .slider-extra .slider-trigger {
+    bottom: 30px;
+    font-size: 0;
+    height: 12px;
+    left: 242px;
+    position: absolute;
+    text-align: center;
+    width: 748px;
+    z-index: 1;
+}
+.p-slider .slider-extra .slider-trigger .item {
+    background-color: #fff;
+    border-radius: 6px;
+    display: inline-block;
+    height: 12px;
+    margin-right: 8px;
+    width: 12px;
+}
+.p-slider .slider-extra .slider-trigger .item:hover {
+    cursor: pointer;
+}
+.p-slider .slider-extra .slider-trigger .item.selected {
+    background-color: #b32d36;
+}
+.root61 .p-slider .i-wrap {
+    width: 1210px;
+}
+.root61 .p-slider .i-wrap .i-inner {
+    margin-left: 242px;
+}
+.root61 .p-slider .slider-extra {
+    width: 1210px;
+}
+.root61 .p-slider .slider-extra .slider-trigger {
+    width: 968px;
+}
+.new {
+    margin-bottom: 40px;
+}
+.new .mt {
+    height: 40px;
+}
+.new .new-list {
+    height: 564px;
+    margin-left: -10px;
+    overflow: hidden;
+}
+.new .new-list .new-item {
+    float: left;
+    height: 272px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 240px;
+}
+.new .new-list .new-item .p-img {
+    height: 240px;
+    width: 240px;
+}
+.new .new-list .new-item .p-img img {
+    height: 100%;
+    width: 100%;
+}
+.new .new-list .new-item .p-info {
+    background-color: #f7f9f8;
+    font-family: "Microsoft Yahei";
+    line-height: 32px;
+    padding: 0 10px;
+}
+.new .new-list .new-item .p-price {
+    color: #b32d36;
+    float: left;
+    font-weight: 700;
+    width: 66px;
+}
+.new .new-list .new-item .p-name {
+    color: #000;
+    float: right;
+    height: 32px;
+    overflow: hidden;
+    text-align: right;
+    width: 144px;
+}
+.new .new-list .new-item .bought, .new .new-list .new-item .fellow {
+    background-color: #b32d36;
+    color: #fff;
+    left: 0;
+    line-height: 12px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+}
+.new .new-list .new-item.fore10, .new .new-list .new-item.fore9 {
+    display: none;
+}
+.new .new-list .new-item.hover .p-info {
+    background-color: #b32d36;
+}
+.new .new-list .new-item.hover .p-name, .new .new-list .new-item.hover .p-price {
+    color: #fff;
+}
+.root61 .new .new-list {
+    height: 552px;
+}
+.root61 .new .new-list .new-item {
+    height: 266px;
+    width: 234px;
+}
+.root61 .new .new-list .new-item .p-img {
+    height: 234px;
+    width: 234px;
+}
+.root61 .new .new-list .new-item.fore10, .root61 .new .new-list .new-item.fore9 {
+    display: block;
+}
+img {
+    background: rgba(0, 0, 0, 0) url("//misc.360buyimg.com/lib/skin/e/i/error-jd.gif") no-repeat scroll 50% 50%;
+}
+.fashion {
+    margin-bottom: 50px;
+}
+.fashion .mt {
+    height: 40px;
+}
+.fashion .fashion-list {
+    height: 510px;
+    position: relative;
+    width: 100%;
+}
+.fashion .fashion-item {
+    overflow: hidden;
+    position: absolute;
+}
+.fashion .fashion-item .fashion-border {
+    border: 2px solid #b32d36;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.fashion .fashion-left {
+    height: 510px;
+    left: 0;
+    top: 0;
+    width: 490px;
+}
+.fashion .fashion-left .fashion-border {
+    height: 506px;
+    width: 486px;
+}
+.fashion .fashion-top {
+    height: 250px;
+    left: 500px;
+    top: 0;
+    width: 490px;
+}
+.fashion .fashion-top .fashion-border {
+    height: 246px;
+    width: 486px;
+}
+.fashion .fashion-bottom {
+    height: 250px;
+    left: 500px;
+    top: 260px;
+    width: 500px;
+}
+.fashion .fashion-bottom .bottom-item {
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+}
+.fashion .fashion-bottom .bottom-item .fashion-border {
+    height: 246px;
+    width: 236px;
+}
+.fashion .fashion-right {
+    display: none;
+}
+.root61 .fashion .fashion-list .fashion-left {
+    width: 478px;
+}
+.root61 .fashion .fashion-list .fashion-left .fashion-border {
+    width: 474px;
+}
+.root61 .fashion .fashion-list .fashion-top {
+    left: 488px;
+    width: 478px;
+}
+.root61 .fashion .fashion-list .fashion-top .fashion-border {
+    width: 474px;
+}
+.root61 .fashion .fashion-list .fashion-bottom {
+    left: 488px;
+    width: 488px;
+}
+.root61 .fashion .fashion-list .fashion-bottom .bottom-item {
+    width: 234px;
+}
+.root61 .fashion .fashion-list .fashion-bottom .bottom-item .fashion-border {
+    width: 230px;
+}
+.root61 .fashion .fashion-list .fashion-right {
+    display: block;
+    height: 510px;
+    left: 976px;
+    top: 0;
+    width: 234px;
+}
+.root61 .fashion .fashion-list .fashion-right .fashion-border {
+    height: 506px;
+    width: 230px;
+}
+.season {
+    margin-bottom: 50px;
+}
+.season .mt {
+    height: 40px;
+}
+.season .season-list {
+    height: 517px;
+    margin-left: -10px;
+    overflow: hidden;
+}
+.season .season-list .season-item {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    width: 240px;
+}
+.season .season-list .season-item .p-num {
+    color: #000;
+    font-family: "Microsoft Yahei";
+    font-weight: 700;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+}
+.season .season-list .season-item .p-num .num {
+    display: block;
+    font: bolder 30px/30px "Microsoft Yahei";
+}
+.season .season-list .season-item .p-img {
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+.season .season-list .season-item .p-brand {
+    background-color: #fff;
+    border-radius: 45px;
+    height: 40px;
+    left: 75px;
+    padding: 25px 0;
+    position: absolute;
+    text-align: center;
+    top: 355px;
+    width: 90px;
+}
+.season .season-list .season-item .p-info {
+    background-color: #f7f9f8;
+    height: 62px;
+    padding: 45px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+.season .season-list .season-item .p-info .p-name {
+    color: #000;
+    display: block;
+    font: 18px/38px "Microsoft Yahei";
+    height: 38px;
+    overflow: hidden;
+    width: 100%;
+}
+.season .season-list .season-item .p-info .p-cont {
+    color: #e11923;
+    display: block;
+    font: 14px/14px "Microsoft Yahei";
+    height: 14px;
+    overflow: hidden;
+    width: 100%;
+}
+.season .season-list .season-item.fore5 {
+    display: none;
+}
+.season .season-list .season-item.hover .p-info {
+    background-color: #b32d36;
+}
+.season .season-list .season-item.hover .p-info .p-cont, .season .season-list .season-item.hover .p-info .p-name {
+    color: #fff;
+}
+.root61 .season .season-list .season-item {
+    width: 234px;
+}
+.root61 .season .season-list .season-item.fore5 {
+    display: block;
+}
+.root61 .season .season-list .season-item .p-img img {
+    margin-left: -3px;
+}
+.root61 .season .season-list .season-item .p-brand {
+    left: 72px;
+}
+.trend {
+    margin-bottom: 50px;
+}
+.trend .mt {
+    border-bottom: 2px solid #f7f9f8;
+    height: 40px;
+}
+.trend .trend-tab {
+    height: 60px;
+    overflow: hidden;
+    width: 100%;
+}
+.trend .tab-title {
+    color: #000;
+    float: left;
+    font: 600 16px/60px "Microsoft Yahei";
+    height: 60px;
+    position: relative;
+    text-align: center;
+    width: 198px;
+}
+.trend .tab-title .triangle {
+    border-color: #b32d36 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 7px;
+    display: none;
+    font-size: 0;
+    height: 0;
+    left: 92px;
+    line-height: 0;
+    position: absolute;
+    top: 42px;
+    width: 0;
+}
+.trend .tab-title.hover {
+    color: #b32d36;
+    cursor: pointer;
+}
+.trend .tab-title.selected {
+    color: #b32d36;
+}
+.trend .tab-title.selected .triangle {
+    display: block;
+}
+.trend .l-box {
+    float: left;
+    height: 495px;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+}
+.trend .l-box .tips {
+    border-top: 1px solid #8d8d8d;
+    bottom: 0;
+    color: #000;
+    font-family: "Microsoft Yahei";
+    height: 129px;
+    margin: 0 20px;
+    position: absolute;
+    width: 200px;
+}
+.trend .l-box .tips .tip-title {
+    font: 600 14px/14px "Microsoft Yahei";
+    margin: 20px 0 12px;
+}
+.trend .l-box .tips .tip-cont {
+    list-style: outside none disc;
+    margin-bottom: 6px;
+    margin-left: 15px;
+}
+.trend .l-box .tips .tip-cont a {
+    color: #000;
+}
+.trend .l-box .tips .tip-cont a:hover {
+    text-decoration: underline;
+}
+.trend .l-box .triangle {
+    border-color: transparent #fff transparent transparent;
+    border-style: dashed solid dashed dashed;
+    border-width: 11px;
+    font-size: 0;
+    height: 0;
+    left: 218px;
+    line-height: 0;
+    position: absolute;
+    top: 70px;
+    width: 0;
+}
+.trend .c-box {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #f7f9f8 #f7f9f8 #f7f9f8 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 2px 2px 2px 0;
+    float: left;
+    height: 491px;
+    position: relative;
+    width: 748px;
+}
+.trend .c-box .trend-item {
+    height: 192px;
+    position: absolute;
+    width: 290px;
+}
+.trend .c-box .trend-item .p-img {
+    float: left;
+    position: relative;
+}
+.trend .c-box .trend-item .p-img .b-circle, .trend .c-box .trend-item .p-img .s-circle {
+    border-radius: 50%;
+    position: absolute;
+}
+.trend .c-box .trend-item .p-img .b-circle {
+    background-color: #efd5d8;
+    height: 12px;
+    top: 33px;
+    width: 12px;
+}
+.trend .c-box .trend-item .p-img .s-circle {
+    background-color: #b32d36;
+    height: 8px;
+    top: 35px;
+    width: 8px;
+}
+.trend .c-box .trend-item .p-img.hover .b-circle {
+    animation: 0.8s ease 0s normal none infinite running flash;
+}
+.trend .c-box .trend-item .p-info .p-num {
+    color: #000;
+    font: italic 600 30px/30px "Microsoft Yahei";
+    margin-top: 25px;
+}
+.trend .c-box .trend-item .p-info .p-name {
+    color: #000;
+    display: block;
+    font: 12px/24px "Microsoft Yahei";
+    height: 24px;
+    overflow: hidden;
+    width: 120px;
+}
+.trend .c-box .trend-item .p-info .p-btn {
+    border: 1px solid #000;
+    color: #000;
+    display: block;
+    font: 12px/22px "Microsoft Yahei";
+    height: 22px;
+    text-align: center;
+    width: 58px;
+}
+.trend .c-box .trend-item.fore1 .p-img .b-circle, .trend .c-box .trend-item.fore2 .p-img .b-circle {
+    left: 18px;
+}
+.trend .c-box .trend-item.fore1 .p-img .s-circle, .trend .c-box .trend-item.fore2 .p-img .s-circle {
+    left: 20px;
+}
+.trend .c-box .trend-item.fore1 .p-info, .trend .c-box .trend-item.fore2 .p-info {
+    float: left;
+    margin-right: 20px;
+}
+.trend .c-box .trend-item.fore3 .p-img .b-circle, .trend .c-box .trend-item.fore4 .p-img .b-circle {
+    right: 18px;
+}
+.trend .c-box .trend-item.fore3 .p-img .s-circle, .trend .c-box .trend-item.fore4 .p-img .s-circle {
+    right: 20px;
+}
+.trend .c-box .trend-item.fore3 .p-info, .trend .c-box .trend-item.fore4 .p-info {
+    float: right;
+    margin-left: 20px;
+}
+.trend .c-box .trend-item.fore1 {
+    left: 60px;
+    top: 30px;
+}
+.trend .c-box .trend-item.fore2 {
+    left: 410px;
+    top: 70px;
+}
+.trend .c-box .trend-item.fore3 {
+    left: 50px;
+    top: 260px;
+}
+.trend .c-box .trend-item.fore4 {
+    left: 380px;
+    top: 270px;
+}
+.trend .r-box {
+    display: none;
+}
+.root61 .trend .tab-title {
+    width: 242px;
+}
+.root61 .trend .tab-title .triangle {
+    left: 114px;
+}
+.root61 .trend .l-box {
+    width: 234px;
+}
+.root61 .trend .l-box .triangle {
+    left: 212px;
+}
+.root61 .trend .c-box {
+    border-right: 0 none;
+    width: 694px;
+}
+.root61 .trend .c-box .trend-item.fore1 {
+    left: 50px;
+}
+.root61 .trend .c-box .trend-item.fore2 {
+    left: 400px;
+}
+.root61 .trend .c-box .trend-item.fore3 {
+    left: 40px;
+}
+.root61 .trend .c-box .trend-item.fore4 {
+    left: 370px;
+}
+.root61 .trend .r-box {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #f7f9f8 #f7f9f8 #f7f9f8 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 2px 2px 2px 0;
+    display: block;
+    float: left;
+    height: 491px;
+    width: 280px;
+}
+.root61 .trend .r-box .p-info {
+    height: 191px;
+    margin: 0 25px;
+    overflow: hidden;
+}
+.root61 .trend .r-box .p-info .question {
+    color: #000;
+    font: 20px/20px "Microsoft Yahei";
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.root61 .trend .r-box .p-info .answer {
+    color: #a0a0a0;
+    font: 12px/22px "Microsoft Yahei";
+}
+@keyframes flash {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+@keyframes flash {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+.more {
+    margin-bottom: 40px;
+}
+.more .mt {
+    border-bottom: 2px solid #f7f9f8;
+    height: 40px;
+}
+.more .more-tab {
+    height: 60px;
+    overflow: hidden;
+    width: 100%;
+}
+.more .more-title {
+    color: #000;
+    float: left;
+    font: 14px/60px "Microsoft Yahei";
+    height: 60px;
+    position: relative;
+    text-align: center;
+    width: 110px;
+}
+.more .more-title .title-name {
+    border-radius: 12px;
+    padding: 3px 12px;
+}
+.more .more-title .title-name.hover {
+    background-color: #b32d36;
+    color: #fff;
+    cursor: pointer;
+}
+.more .more-title .triangle {
+    border-color: #b32d36 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 5px;
+    display: none;
+    font-size: 0;
+    height: 0;
+    left: 50px;
+    line-height: 0;
+    position: absolute;
+    top: 42px;
+    width: 0;
+}
+.more .more-title.selected .title-name {
+    background-color: #b32d36;
+    color: #fff;
+}
+.more .more-title.selected .triangle {
+    display: block;
+}
+.more .tab-cont {
+    margin-left: -10px;
+    overflow: hidden;
+}
+.more .tab-cont .more-item {
+    border: 1px solid #f7f9f8;
+    float: left;
+    height: 339px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 238px;
+}
+.more .tab-cont .more-item .p-img {
+    height: 238px;
+    width: 238px;
+}
+.more .tab-cont .more-item .p-img img {
+    height: 100%;
+    width: 100%;
+}
+.more .tab-cont .more-item .p-info {
+    border-top: 1px solid #f7f9f8;
+    padding: 20px;
+}
+.more .tab-cont .more-item .p-info .p-name {
+    color: #000;
+    display: block;
+    height: 36px;
+    overflow: hidden;
+    width: 192px;
+}
+.more .tab-cont .more-item .p-info .p-price {
+    color: #b32d36;
+    font: 600 14px/14px "Microsoft Yahei";
+    margin-top: 10px;
+}
+.more .tab-cont .more-item.fore10, .more .tab-cont .more-item.fore9 {
+    display: none;
+}
+.more .tab-cont .more-item.hover {
+    border-color: #b32d36;
+}
+.root61 .more .more-title {
+    width: 134px;
+}
+.root61 .more .more-title .triangle {
+    left: 62px;
+}
+.root61 .more .tab-cont .more-item {
+    height: 333px;
+    width: 232px;
+}
+.root61 .more .tab-cont .more-item .p-img {
+    height: 232px;
+    width: 232px;
+}
+.root61 .more .tab-cont .more-item.fore10, .root61 .more .tab-cont .more-item.fore9 {
+    display: block;
+}
+.ui-elevator {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #b32d36;
+    border-image: none;
+    border-style: solid;
+    border-width: 2px 2px 1px;
+    display: none;
+    font-family: "Microsoft Yahei";
+    width: 40px;
+    z-index: 1;
+}
+.ui-elevator .ui-elevator-handler {
+    background-color: #fff;
+    border-bottom: 1px solid #b32d36;
+    color: #000;
+    display: none;
+    float: left;
+    height: 36px;
+    overflow: hidden;
+    padding: 2px 5px;
+    text-align: center;
+    width: 30px;
+}
+.ui-elevator .elevator-hover, .ui-elevator .ui-elevator-select {
+    background-color: #b32d36;
+    color: #fff;
+    cursor: pointer;
+}
+.go-top {
+    background-color: #b32d36;
+    border: 2px solid #b32d36;
+    color: #fff;
+    display: none;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    z-index: 2;
+}
+.go-top.elevator-hover {
+    background-color: #b32d36;
+    color: #fff;
+    cursor: pointer;
+}
+.root61 .go-top, .root61 .ui-elevator, .root61 .ui-elevator .ui-elevator-handler {
+    display: block;
+}
