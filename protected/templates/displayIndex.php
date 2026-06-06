@@ -51,7 +51,7 @@ function displayIndex($id=84){
       </div-->
       <?php echo(getGroupDataByParentId($id)); ?>
       <div class="data-entry" id="data_entry">
-        <form action="http://ok.94007.com:8089/php/edit/protected/controllers/action.php" class="form form-horizontal" method="post">
+        <form action="/protected/controllers/action.php" class="form form-horizontal" method="post">
         <input type="hidden" name="action" value="addArtical">
         <input type="hidden" name="parentid" value="<?php echo(0);?>">
           <div class="form-group">
@@ -150,7 +150,7 @@ function displayMobileIndex($id=84){
       </div-->
       <?php echo(getGroupDataByParentId($id)); ?>
       <div class="data-entry" id="data_entry">
-        <form action="http://ok.94007.com:8089/php/edit/protected/controllers/action.php" class="form form-horizontal" method="post">
+        <form action="/protected/controllers/action.php" class="form form-horizontal" method="post">
         <input type="hidden" name="action" value="addArtical">
         <input type="hidden" name="parentid" value="<?php echo(0);?>">
           <div class="form-group">

@@ -108,7 +108,7 @@ $(function(){
     //============ nav的控制 ===============
     //refresh
     $("#navbar .icon-refresh").click(function(){
-      $.post("http://demo163.com/protected/controllers/action.php?action=refreshMobileVersion",function(data){
+      $.post("/protected/controllers/action.php?action=refreshMobileVersion",function(data){
         if(data=="ok"){
           refreshCache();
           console.log("更新缓存");
@@ -142,7 +142,7 @@ $(function(){
       $id = $root.attr("languageid");
       $root.remove();
       //拿到id发送ajax
-      $.post("http://demo163.com/protected/controllers/action.php?action=delArticalById",{id:$id},function(data){
+      $.post("/protected/controllers/action.php?action=delArticalById",{id:$id},function(data){
         if(data.done){
           console.log("删除成功");
         }else{
@@ -174,7 +174,7 @@ $(function(){
       $content = $root.find(".editer-model").val();
       $language = $root.find(".language").val();
       // console.log($id+"--"+$name+"--"+$detail+"--"+$content);
-      $.post("http://demo163.com/protected/controllers/action.php?action=setArticalById",{id:$id,name:$name,detail:$detail,content:$content,language:$language},function(data){
+      $.post("/protected/controllers/action.php?action=setArticalById",{id:$id,name:$name,detail:$detail,content:$content,language:$language},function(data){
         if(data.done){
           console.log("保存成功");
         }else{
@@ -206,7 +206,7 @@ $(function(){
       $content = $root.find(".editer-model").val();
       $language = $root.find(".language").val();
       // console.log($id+"--"+$name+"--"+$detail+"--"+$content);
-      $.post("http://demo163.com/protected/controllers/action.php?action=setArticalById", {
+      $.post("/protected/controllers/action.php?action=setArticalById", {
         id: $id,
         name: $name,
         detail: $detail,
@@ -227,7 +227,7 @@ $(function(){
       $id = $root.attr("id").replace("clip_","");
       $root.remove();
       //拿到id发送ajax
-      $.post("http://demo163.com/protected/controllers/action.php?action=delArticalById",{id:$id},function(data){
+      $.post("/protected/controllers/action.php?action=delArticalById",{id:$id},function(data){
         if(data.done){
           console.log("删除成功");
           asideMaker();
@@ -248,7 +248,7 @@ $(function(){
       //删除左边实体
       $($href).remove();
       //发送删除请求，删除，数据库删除
-      $.post("http://demo163.com/protected/controllers/action.php?action=delArticalById",{id:$id},function(data){
+      $.post("/protected/controllers/action.php?action=delArticalById",{id:$id},function(data){
         if(data.done){
           console.log("删除成功");
         }else{
@@ -356,7 +356,7 @@ function asideMaker(){
   $("#aside_control").after(mysections);
 }
 function addArtical(obj,fn){//异步插入新数据
-  $.post("http://demo163.com/protected/controllers/action.php?action=addArtical",obj,function(data){
+  $.post("/protected/controllers/action.php?action=addArtical",obj,function(data){
     fn(data);
   },"json");
 }
